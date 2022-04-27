@@ -64,7 +64,7 @@ const $ = (id) => {
  };
 
 // DELETE EMPLOYEE
-   function onDeleteRow(e) {
+   function onDeleteRow() {
       if(!e.target.classList.contains('deleteBtn')){
            return;
        }
